@@ -1,0 +1,4 @@
+invoice,stock_code,description,quantity,invoice_date,unit_price,customer_id,country,issue
+C700070,SKU012,Reusable Bottle,17.0,2026-09-18 10:30:00,6.5,42014,France,cancellation_invoice
+700078,SKU004,Desk Organizer,-4.0,2026-09-20 10:30:00,8.75,42028,United Kingdom,negative_quantity_return
+C700081,SKU005,Desk Organizer,-2.0,2026-09-21 09:30:00,8.75,42034,United Kingdom,cancellation_invoice

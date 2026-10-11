@@ -1,0 +1,39 @@
+{
+  "source": "data/raw/sample_orders.csv",
+  "dataset_kind": "synthetic_demonstration",
+  "raw_rows": 81,
+  "exact_duplicate_rows_for_review": 2,
+  "returns_and_cancellations_separated": 3,
+  "invalid_rows_separated": 6,
+  "clean_transaction_rows": 70,
+  "missing_values_before_cleaning": {
+    "invoice": 1,
+    "stock_code": 1,
+    "description": 1,
+    "quantity": 1,
+    "invoice_date": 1,
+    "unit_price": 0,
+    "customer_id": 2,
+    "country": 1
+  },
+  "missing_customer_ids_in_clean_data": 2,
+  "missing_country_imputed_unknown": 1,
+  "missing_description_labeled": 1,
+  "zero_price_items_flagged": 1,
+  "quantity_iqr_upper_fence": 25.0,
+  "quantity_iqr_outlier_flags": 1,
+  "daily_rows_with_calendar_zeros": 35,
+  "chronological_train_days": 22,
+  "chronological_test_days": 6,
+  "scaler": "RobustScaler fitted only on chronological training features",
+  "train_feature_medians": {
+    "lag_1_units": 15.5,
+    "lag_7_units": 17.0,
+    "prior_7day_mean_units": 19.0
+  },
+  "train_feature_iqr_scales": {
+    "lag_1_units": 14.25,
+    "lag_7_units": 10.25,
+    "prior_7day_mean_units": 65.357
+  }
+}

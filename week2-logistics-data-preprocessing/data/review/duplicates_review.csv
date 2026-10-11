@@ -1,0 +1,3 @@
+invoice,stock_code,description,quantity,invoice_date,unit_price,customer_id,country
+700018,SKU010,Travel Mug,16.0,2026-09-05 10:30:00,9.5,42029,Ireland
+700049,SKU001,Reusable Bottle,13.0,2026-09-13 09:30:00,6.5,42031,United Kingdom

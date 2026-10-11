@@ -1,0 +1,71 @@
+invoice,stock_code,description,quantity,invoice_date,unit_price,customer_id,country,description_missing,customer_missing,country_missing,zero_price_item,line_value_gbp,order_date,quantity_outlier_flag
+700001,SKU001,Reusable Bottle,1.0,2026-09-01 09:30:00,6.5,42000,United Kingdom,False,False,False,False,6.5,2026-09-01 00:00:00,False
+700002,SKU002,Insulated Lunchbox,6.0,2026-09-01 10:30:00,12.0,42001,Ireland,False,False,False,False,72.0,2026-09-01 00:00:00,False
+700003,SKU003,Desk Organizer,11.0,2026-09-01 11:30:00,8.75,42002,France,False,False,False,False,96.25,2026-09-01 00:00:00,False
+700005,SKU003,Insulated Lunchbox,8.0,2026-09-02 09:30:00,12.0,,Ireland,False,True,False,False,96.0,2026-09-02 00:00:00,False
+700006,SKU004,Desk Organizer,13.0,2026-09-02 10:30:00,8.75,42008,France,False,False,False,False,113.75,2026-09-02 00:00:00,False
+700009,SKU005,Desk Organizer,15.0,2026-09-03 09:30:00,8.75,42014,France,False,False,False,False,131.25,2026-09-03 00:00:00,False
+700010,SKU006,UNSPECIFIED ITEM,2.0,2026-09-03 10:30:00,4.99,42015,Germany,True,False,False,False,9.98,2026-09-03 00:00:00,False
+700013,SKU007,Notebook Set,4.0,2026-09-04 09:30:00,4.99,42021,Germany,False,False,False,False,19.96,2026-09-04 00:00:00,False
+700014,SKU008,Storage Box,9.0,2026-09-04 10:30:00,10.25,42022,United Kingdom,False,False,False,False,92.25,2026-09-04 00:00:00,False
+700017,SKU009,Storage Box,11.0,2026-09-05 09:30:00,10.25,42028,United Kingdom,False,False,False,False,112.75,2026-09-05 00:00:00,False
+700018,SKU010,Travel Mug,16.0,2026-09-05 10:30:00,9.5,42029,Ireland,False,False,False,False,152.0,2026-09-05 00:00:00,False
+700019,SKU011,Reusable Bottle,3.0,2026-09-05 11:30:00,6.5,42030,France,False,False,False,False,19.5,2026-09-05 00:00:00,False
+700021,SKU011,Travel Mug,18.0,2026-09-06 09:30:00,9.5,42035,Ireland,False,False,False,False,171.0,2026-09-06 00:00:00,False
+700022,SKU012,Reusable Bottle,5.0,2026-09-06 10:30:00,6.5,42036,France,False,False,False,False,32.5,2026-09-06 00:00:00,False
+700025,SKU001,Reusable Bottle,7.0,2026-09-07 09:30:00,6.5,42042,France,False,False,False,False,45.5,2026-09-07 00:00:00,False
+700026,SKU002,Insulated Lunchbox,12.0,2026-09-07 10:30:00,12.0,,Germany,False,True,False,False,144.0,2026-09-07 00:00:00,False
+700029,SKU003,Insulated Lunchbox,14.0,2026-09-08 09:30:00,12.0,42049,Germany,False,False,False,False,168.0,2026-09-08 00:00:00,False
+700030,SKU004,Desk Organizer,1.0,2026-09-08 10:30:00,8.75,42050,United Kingdom,False,False,False,False,8.75,2026-09-08 00:00:00,False
+700033,SKU005,Desk Organizer,3.0,2026-09-09 09:30:00,8.75,42003,Unknown,False,False,True,False,26.25,2026-09-09 00:00:00,False
+700034,SKU006,Notebook Set,8.0,2026-09-09 10:30:00,4.99,42004,Ireland,False,False,False,False,39.92,2026-09-09 00:00:00,False
+700035,SKU007,Storage Box,13.0,2026-09-09 11:30:00,10.25,42005,France,False,False,False,False,133.25,2026-09-09 00:00:00,False
+700037,SKU007,Notebook Set,10.0,2026-09-10 09:30:00,4.99,42010,Ireland,False,False,False,False,49.900000000000006,2026-09-10 00:00:00,False
+700038,SKU008,Storage Box,15.0,2026-09-10 10:30:00,10.25,42011,France,False,False,False,False,153.75,2026-09-10 00:00:00,False
+700041,SKU009,Storage Box,450.0,2026-09-11 09:30:00,10.25,42017,France,False,False,False,False,4612.5,2026-09-11 00:00:00,True
+700042,SKU010,Travel Mug,4.0,2026-09-11 10:30:00,9.5,42018,Germany,False,False,False,False,38.0,2026-09-11 00:00:00,False
+700045,SKU011,Travel Mug,6.0,2026-09-12 09:30:00,0.0,42024,Germany,False,False,False,True,0.0,2026-09-12 00:00:00,False
+700046,SKU012,Reusable Bottle,11.0,2026-09-12 10:30:00,6.5,42025,United Kingdom,False,False,False,False,71.5,2026-09-12 00:00:00,False
+700049,SKU001,Reusable Bottle,13.0,2026-09-13 09:30:00,6.5,42031,United Kingdom,False,False,False,False,84.5,2026-09-13 00:00:00,False
+700051,SKU003,Desk Organizer,5.0,2026-09-13 11:30:00,8.75,42033,France,False,False,False,False,43.75,2026-09-13 00:00:00,False
+700053,SKU003,Insulated Lunchbox,2.0,2026-09-14 09:30:00,12.0,42038,Ireland,False,False,False,False,24.0,2026-09-14 00:00:00,False
+700057,SKU005,Desk Organizer,9.0,2026-09-15 09:30:00,8.75,42045,France,False,False,False,False,78.75,2026-09-15 00:00:00,False
+700058,SKU006,Notebook Set,14.0,2026-09-15 10:30:00,4.99,42046,Germany,False,False,False,False,69.86,2026-09-15 00:00:00,False
+700061,SKU007,Notebook Set,16.0,2026-09-16 09:30:00,4.99,42052,Germany,False,False,False,False,79.84,2026-09-16 00:00:00,False
+700065,SKU009,Storage Box,5.0,2026-09-17 09:30:00,10.25,42006,United Kingdom,False,False,False,False,51.25,2026-09-17 00:00:00,False
+700066,SKU010,Travel Mug,10.0,2026-09-17 10:30:00,9.5,42007,Ireland,False,False,False,False,95.0,2026-09-17 00:00:00,False
+700069,SKU011,Travel Mug,12.0,2026-09-18 09:30:00,9.5,42013,Ireland,False,False,False,False,114.0,2026-09-18 00:00:00,False
+700073,SKU001,Reusable Bottle,1.0,2026-09-19 09:30:00,6.5,42020,France,False,False,False,False,6.5,2026-09-19 00:00:00,False
+700074,SKU002,Insulated Lunchbox,6.0,2026-09-19 10:30:00,12.0,42021,Germany,False,False,False,False,72.0,2026-09-19 00:00:00,False
+700077,SKU003,Insulated Lunchbox,8.0,2026-09-20 09:30:00,12.0,42027,Germany,False,False,False,False,96.0,2026-09-20 00:00:00,False
+700082,SKU006,Notebook Set,2.0,2026-09-21 10:30:00,4.99,42035,Ireland,False,False,False,False,9.98,2026-09-21 00:00:00,False
+700083,SKU007,Storage Box,7.0,2026-09-21 11:30:00,10.25,42036,France,False,False,False,False,71.75,2026-09-21 00:00:00,False
+700086,SKU008,Storage Box,9.0,2026-09-22 10:30:00,10.25,42042,France,False,False,False,False,92.25,2026-09-22 00:00:00,False
+700089,SKU009,Storage Box,11.0,2026-09-23 09:30:00,10.25,42048,France,False,False,False,False,112.75,2026-09-23 00:00:00,False
+700090,SKU010,Travel Mug,16.0,2026-09-23 10:30:00,9.5,42049,Germany,False,False,False,False,152.0,2026-09-23 00:00:00,False
+700094,SKU012,Reusable Bottle,5.0,2026-09-24 10:30:00,6.5,42003,United Kingdom,False,False,False,False,32.5,2026-09-24 00:00:00,False
+700097,SKU001,Reusable Bottle,7.0,2026-09-25 09:30:00,6.5,42009,United Kingdom,False,False,False,False,45.5,2026-09-25 00:00:00,False
+700098,SKU002,Insulated Lunchbox,12.0,2026-09-25 10:30:00,12.0,42010,Ireland,False,False,False,False,144.0,2026-09-25 00:00:00,False
+700099,SKU003,Desk Organizer,17.0,2026-09-25 11:30:00,8.75,42011,France,False,False,False,False,148.75,2026-09-25 00:00:00,False
+700101,SKU003,Insulated Lunchbox,14.0,2026-09-26 09:30:00,12.0,42016,Ireland,False,False,False,False,168.0,2026-09-26 00:00:00,False
+700102,SKU004,Desk Organizer,1.0,2026-09-26 10:30:00,8.75,42017,France,False,False,False,False,8.75,2026-09-26 00:00:00,False
+700105,SKU005,Desk Organizer,3.0,2026-09-27 09:30:00,8.75,42023,France,False,False,False,False,26.25,2026-09-27 00:00:00,False
+700106,SKU006,Notebook Set,8.0,2026-09-27 10:30:00,4.99,42024,Germany,False,False,False,False,39.92,2026-09-27 00:00:00,False
+700109,SKU007,Notebook Set,10.0,2026-09-28 09:30:00,4.99,42030,Germany,False,False,False,False,49.900000000000006,2026-09-28 00:00:00,False
+700110,SKU008,Storage Box,15.0,2026-09-28 10:30:00,10.25,42031,United Kingdom,False,False,False,False,153.75,2026-09-28 00:00:00,False
+700113,SKU009,Storage Box,17.0,2026-09-29 09:30:00,10.25,42037,United Kingdom,False,False,False,False,174.25,2026-09-29 00:00:00,False
+700114,SKU010,Travel Mug,4.0,2026-09-29 10:30:00,9.5,42038,Ireland,False,False,False,False,38.0,2026-09-29 00:00:00,False
+700115,SKU011,Reusable Bottle,9.0,2026-09-29 11:30:00,6.5,42039,France,False,False,False,False,58.5,2026-09-29 00:00:00,False
+700117,SKU011,Travel Mug,6.0,2026-09-30 09:30:00,9.5,42044,Ireland,False,False,False,False,57.0,2026-09-30 00:00:00,False
+700118,SKU012,Reusable Bottle,11.0,2026-09-30 10:30:00,6.5,42045,France,False,False,False,False,71.5,2026-09-30 00:00:00,False
+700121,SKU001,Reusable Bottle,13.0,2026-10-01 09:30:00,6.5,42051,France,False,False,False,False,84.5,2026-10-01 00:00:00,False
+700122,SKU002,Insulated Lunchbox,18.0,2026-10-01 10:30:00,12.0,42052,Germany,False,False,False,False,216.0,2026-10-01 00:00:00,False
+700125,SKU003,Insulated Lunchbox,2.0,2026-10-02 09:30:00,12.0,42005,Germany,False,False,False,False,24.0,2026-10-02 00:00:00,False
+700126,SKU004,Desk Organizer,7.0,2026-10-02 10:30:00,8.75,42006,United Kingdom,False,False,False,False,61.25,2026-10-02 00:00:00,False
+700129,SKU005,Desk Organizer,9.0,2026-10-03 09:30:00,8.75,42012,United Kingdom,False,False,False,False,78.75,2026-10-03 00:00:00,False
+700130,SKU006,Notebook Set,14.0,2026-10-03 10:30:00,4.99,42013,Ireland,False,False,False,False,69.86,2026-10-03 00:00:00,False
+700131,SKU007,Storage Box,1.0,2026-10-03 11:30:00,10.25,42014,France,False,False,False,False,10.25,2026-10-03 00:00:00,False
+700133,SKU007,Notebook Set,16.0,2026-10-04 09:30:00,4.99,42019,Ireland,False,False,False,False,79.84,2026-10-04 00:00:00,False
+700134,SKU008,Storage Box,3.0,2026-10-04 10:30:00,10.25,42020,France,False,False,False,False,30.75,2026-10-04 00:00:00,False
+700137,SKU009,Storage Box,5.0,2026-10-05 09:30:00,10.25,42026,France,False,False,False,False,51.25,2026-10-05 00:00:00,False
+700138,SKU010,Travel Mug,10.0,2026-10-05 10:30:00,9.5,42027,Germany,False,False,False,False,95.0,2026-10-05 00:00:00,False

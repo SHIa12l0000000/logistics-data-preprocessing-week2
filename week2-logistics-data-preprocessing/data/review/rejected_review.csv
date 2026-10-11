@@ -1,0 +1,7 @@
+invoice,stock_code,description,quantity,invoice_date,unit_price,customer_id,country,issue
+700050,SKU002,Insulated Lunchbox,,2026-09-13 10:30:00,12.0,42032,Ireland,missing_or_invalid_critical_field
+700054,SKU004,Desk Organizer,7.0,,8.75,42039,France,missing_or_invalid_critical_field
+700062,SKU008,Storage Box,3.0,2026-09-16 10:30:00,-3.5,42000,United Kingdom,invalid_quantity_or_price
+700067,SKU011,Reusable Bottle,0.0,2026-09-17 11:30:00,6.5,42008,France,invalid_quantity_or_price
+,SKU007,Notebook Set,4.0,2026-09-22 09:30:00,4.99,42041,Ireland,missing_or_invalid_critical_field
+700093,,Travel Mug,18.0,2026-09-24 09:30:00,9.5,42002,Germany,missing_or_invalid_critical_field
